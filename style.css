@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'Effra';
+    src: url('fonts/Effra.ttf') format('opentype');
+}
+
+@font-face {
+    font-family: 'MrEavesReg';
+    src: url('fonts/MrEavesReg.ttf') format('opentype');
+}
+
+* {
+    background-color: #1A120B;
+}
+
+
+::selection {
+    color: #ffdd00;
+    background-color: #0a0704;
+}
+
+.container {
+    text-align: center;
+    margin: auto;
+}
+
+.headstuff {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 48px;
+}
+
+#audio-btn {
+    color: #D5CEA3;
+    cursor: pointer;
+    font-size: 11px;
+    padding: 0;
+    padding-top: 5px;
+    padding-bottom: 4px;
+    padding-left: 5px;
+    padding-right: 5px;
+    max-width: 90%;
+    margin-right: 10px;
+    border: solid #0a0704;
+    border-width: 5px;
+    border-radius: 10px;
+    background: #0d0906;
+    font-family: MrEavesReg;
+}
+
+#playbtn {
+    max-width: 90%;
+    height: auto;
+    width: 49px;
+}
+
+
+
+#header {
+    color: #D5CEA3;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    font-family: Effra;
+}
+
+#errorMsg {
+    color: #E5E5CB;
+    display: flex;
+    text-align: left;
+    font-family: MrEavesReg;
+    font-size: 19px;
+    white-space: pre-line;
+    justify-content: center;
+}
+
+#catImage {
+    border: 5px solid #D5CEA3;
+    border-radius: 10px;
+    max-width: 90%;
+    height: auto;
+    width: 450px;
+}
+
+#copyright {
+    margin-top: 80px;
+    font-family: MrEavesReg;
+    color: #E5E5CB;
+    font-size: 10px;
+    letter-spacing: 3px;
+    opacity: 20%;
+}
